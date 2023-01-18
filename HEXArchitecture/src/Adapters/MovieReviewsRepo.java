@@ -7,6 +7,7 @@ import Domain.MovieSearchRequest;
 import java.util.*;
 
 public class MovieReviewsRepo implements IFetchMovieReviews {
+    // TODO: Репозиторий оценок фильмов
     private Map<String, List<MovieReview>> movieReviewMap;
 
     public MovieReviewsRepo() {

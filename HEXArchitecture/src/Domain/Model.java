@@ -3,6 +3,7 @@ package Domain;
 import Application.MovieApp;
 
 public class Model {
+    // TODO: Общая логика. ПОка ток принятие запроса от пользователя
     private MovieApp movieApp;
 
     public Model(MovieApp movieApp) {

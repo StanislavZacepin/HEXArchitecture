@@ -8,6 +8,7 @@ import Domain.Model;
 import Domain.MovieSearchRequest;
 
 public class UserCommand implements IUserInput {
+    // TODO: Команды пользователя
     private Model model;
 
     public UserCommand(IFetchMovieReviews fetchMovieReviews, IPrintMovieReviews printMovieReviews) {

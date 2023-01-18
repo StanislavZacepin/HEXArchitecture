@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MovieApp {
-
+    // TODO: бизнас логика которая может измениться
     private IFetchMovieReviews fetchMovieReviews;
     private IPrintMovieReviews printMovieReviews;
     private static Random rand = new Random();

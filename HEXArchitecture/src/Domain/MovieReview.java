@@ -1,6 +1,7 @@
 package Domain;
 
 public class MovieReview {
+    // TODO: Фильм с параметрами: Название фильма, оценка, коментарий. В классе констрктор и переопределили toString
     String movieName;
     double movieScore;
     String remark;

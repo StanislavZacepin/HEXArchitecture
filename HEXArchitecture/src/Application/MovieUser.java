@@ -3,6 +3,7 @@ package Application;
 import Domain.MovieSearchRequest;
 
 public class MovieUser {
+    // TODO: Струткура  получения данных пользователя для вызова логики, соиденения портов между собой
     private IUserInput userInputDriverPort;
 
     public MovieUser(IUserInput userInputDriverPort) {
